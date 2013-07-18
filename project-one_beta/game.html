@@ -6,6 +6,31 @@
     <link type="text/css" rel="stylesheet" 
           href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
     <link type="text/css" rel="stylesheet" href="css/main.css">
+
+            <script type="text/javascript" src="swfobject.js"></script>
+            <script type="text/javascript">
+            // For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection. 
+            var swfVersionStr = "11.1.0";
+            // To use express install, set to playerProductInstall.swf, otherwise the empty string. 
+            var xiSwfUrlStr = "playerProductInstall.swf";
+            var flashvars = {};
+            var params = {};
+            params.quality = "high";
+            params.bgcolor = "#000000";
+            params.allowscriptaccess = "sameDomain";
+            params.allowfullscreen = "true";
+            var attributes = {};
+            attributes.id = "Main";
+            attributes.name = "Main";
+            attributes.align = "middle";
+            swfobject.embedSWF(
+                "Main.swf", "flashContent", 
+                "800", "700", 
+                swfVersionStr, xiSwfUrlStr, 
+                flashvars, params, attributes);
+            // JavaScript enabled so display the flashContent div in case it is not replaced with a swf object.
+            swfobject.createCSS("#flashContent", "display:block;text-align:left;");
+        </script>
   </head>
   <body>
   <div class="container">
@@ -35,10 +60,10 @@
       </div> <!-- close span9 -->
     </div> <!-- clas row header -->
 
-<<<<<<< HEAD
-    <content>
+    <article>
       <p>Face the Rainbow. Play until you can't go any farther.</p>
-    
+      <p>Controls: Use your <em>mouse</em> to guide the unicorn to safty from the "evil" unicorns. Fire! by clicking or holding the <em>left mouse button<em> down</p>
+    </article>
     <div id="flash_content">
   		 <script type="text/javascript">
   			<!-- Change the dimensions of the SWF using the width and height variables below -->
@@ -58,30 +83,9 @@
   			</a>
   		</div>
 	  </div><!-- close flash content-->
-    <p>Controls: Use your mouse to guide the unicorn to safty from the "evil" unicorns. Fire! by clicking or holding the left mouse button down</p>
-    </content>
+
     <div class="row footer">
        
-=======
-    <section class"span12">
-    <h2>Games! Games! Games!</h2>
-    <p class="game"><a href="game.html"><img src="images/pitch.png" alt="Game pitch. Quick! Don't let the evil unicorns catch you!"></a></p>
-    </section>
-
-    <div class="news">
-      <h2>News</h2>
-      <article>
-        <h3>New Console Lineup</h3>
-        <p>Which side are you on? PS4 or Xbox One?</p>
-      </article>
-
-      <article>
-        <h3>Summer Game Release Timeline</h3>
-        <p>Looking forward to all the games being released this summer. Check out our game release timeline to make sure your preorders are bought in time.</p>
-      </article>
-    
-    <div class="row footer"> 
->>>>>>> master
       <div class="span6">
         Created by: <a href="http://www.jawa.im">Jeanna Anderson</a>
       </div>
@@ -99,6 +103,7 @@
       </div>
 
     </div> <!-- close footer -->
+
   </div> <!-- close container -->
 </body>
 </html>
