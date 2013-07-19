@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:48c78d3c0d9418b9dcf44cd72f0eafcd$ -->
+<TextureAtlas imagePath="atlas.png">
+    <SubTexture name="bullet1" x="2" y="2" width="9" height="7" frameX="0" frameY="-2" frameWidth="9" frameHeight="9"/>
+    <SubTexture name="bullet2" x="27" y="2" width="11" height="10"/>
+    <SubTexture name="bullet3" x="13" y="2" width="12" height="10"/>
+    <SubTexture name="bullet4" x="40" y="2" width="14" height="14" frameX="-2" frameY="0" frameWidth="16" frameHeight="14"/>
+    <SubTexture name="enemy" x="314" y="95" width="93" height="79" frameX="-2" frameY="0" frameWidth="95" frameHeight="79"/>
+    <SubTexture name="hero" x="409" y="95" width="92" height="80" frameX="-1" frameY="-1" frameWidth="94" frameHeight="82"/>
+    <SubTexture name="logo" x="2" y="47" width="480" height="46" frameX="-5" frameY="-11" frameWidth="490" frameHeight="70"/>
+    <SubTexture name="over" x="2" y="95" width="310" height="48" frameX="-3" frameY="-11" frameWidth="316" frameHeight="70"/>
+    <SubTexture name="playButton" x="56" y="2" width="181" height="43" frameX="-3" frameY="-1" frameWidth="185" frameHeight="45"/>
+    <SubTexture name="tryAgainButton" x="239" y="2" width="181" height="43" frameX="-3" frameY="-1" frameWidth="185" frameHeight="45"/>
+</TextureAtlas>

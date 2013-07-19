@@ -1,0 +1,74 @@
+body {
+  padding-bottom: 40px;
+  background-image: url(../images/wfc3.jpg);
+}
+
+
+.container {
+  padding-left: 20px;
+  background: #000;
+  color: #fff;
+  width: 960px;
+}
+
+.header{
+  background-image: url(../images/header.png);
+  color: #fff;
+} 
+
+p.lead {
+  padding: 2px 0px 3px 4px;
+}
+
+.nav, .footer {
+  padding: 10px 0px 10px 0px;
+}
+
+a h1{
+  color: #fff;
+}
+
+a{
+  color: #a8d2df;
+}
+
+a:hover{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav {
+  width: 960px;
+  margin-left: 0 auto;
+}
+
+.nav a:hover{
+  color: #a8d2d0;
+}
+
+.game{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.news h2{
+  text-decoration: underline;
+}
+
+.footer{
+  background-image: url(../images/footer.png);
+  color: #000;
+}
+
+.footer a{
+  color: #000;
+}
+
+#flash_content {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#flash_content p span {
+  font-style: bold;
+}
